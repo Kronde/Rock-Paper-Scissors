@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+button{
+    width: 80px;
+    height: 40px;
+    background: none;
+    border: 2px solid black;
+    box-shadow: 5px 9px 0px 0px #0A0F0F;
+}
+
+.screen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 320px;
+    height: 180px;
+
+    margin-top: 20px;
+    margin-bottom: 40px;
+
+    font-size: 2rem;
+    color: black;
+    
+    border: 2px solid black;
+    box-shadow: 5px 9px 0px 0px #0A0F0F;
+}
+
+#game-statut{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    margin-top: 40px;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+#game-statut-text{
+    border: 2px solid black;
+    padding: 10px;
+}
+#win-counter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 500px;
+    height: 120px;
+}
+#game{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    gap: 20px;
+}
+#player-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#player-btn{
+    margin-top: 240px;
+
+    position: absolute;
+}
